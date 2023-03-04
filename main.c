@@ -27,8 +27,6 @@ int main() {
 };
 
 float monthlyInsurance(char sex[], int age, int priceVehicle){
-    printf("xxx%sxxx", sex);
-    printf("%d\n", strcmp(sex, "female"));
     if(strcmp(sex, "male") == 0) {
         if (age >= 15 && age < 25) {
             return (priceVehicle * .25) / 12;
